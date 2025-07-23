@@ -65,10 +65,21 @@ const Layout = () => {
                     >
                         Academics
                     </NavLink>
+                    <NavLink
+                        to="/admissions"
+                        onClick={() => setModal(false)}
+                        className={({ isActive }) =>
+                            isActive
+                                ? 'bg-[#FFEFE5] py-[12px] px-[12px] border-x-[2px] rounded'
+                                : 'py-[12px] px-[12px] rounded'
+                        }
+                    >
+                        Admissions
+                    </NavLink>
 
                     <button
                         onClick={() => setModal(false)}
-                        className="mt-auto  text-left border-[2px] font-boldcd text-red-500 bg-white border-red-500 p-[10px] rounded-[10px]"
+                        className="mt-auto  text-left border-[2px] font-bold text-red-500 bg-white border-red-500 p-[10px] rounded-[10px]"
                     >
                         Close
                     </button>
@@ -116,8 +127,17 @@ const Layout = () => {
                             >
                                 Academics
                             </NavLink>
+                            <NavLink
+                                to="/admissions"
+                                className={({ isActive }) =>
+                                    isActive
+                                        ? 'bg-[#FFEFE5] py-[18px] px-[12px] border-x-[2px]'
+                                        : 'py-[18px] px-[12px] border-x-[2px]'
+                                }
+                            >
+                                Admissions
+                            </NavLink>
 
-                            <li className='py-[18px] px-[12px]'>Admissions</li>
                             <li className='py-[18px] px-[12px] border-l-[2px]'>Student Life</li>
                             <li className='bg-[#FFAE80] py-[18px] px-[12px] rounded-r-[12px] border-l-[2px]'>Contact</li>
                         </ul>

@@ -4,6 +4,7 @@ import Layout from './layout/Layout'
 import Home from './pages/Home'
 import About from './pages/About'
 import Academics from './pages/Academics'
+import Admission from './pages/Admissions'
 const App = () => {
   const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const App = () => {
         {
           path: "academics",
           element: <Academics />
+        },
+        {
+          path: "admissions",
+          element: <Admission />
         }
       ]
     }

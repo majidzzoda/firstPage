@@ -124,7 +124,7 @@ const Home = () => {
                         </div>
                     </div>
                     <p className='lg:text-[20px] font-[500] lg:w-[600px]'>Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!</p>
-                    <div style={{ boxShadow: '6px 6px 0px 2px #FFBE99' }} className='bg-[#FFEFE5] mt-[10px] gap-[10px] flex lg:flex-row justify-between flex-col py-[24px] px-[50px] border-[2px] lg:w-[600px] rounded-[12px] border-[#262626]'>
+                    <div style={{ boxShadow: '6px 6px 0px 2px #FFBE99' }} className='bg-[#FFEFE5] mt-[10px] gap-[10px]  flex lg:flex-row justify-between flex-col py-[24px] px-[50px] border-[2px] lg:w-[600px] rounded-[12px] border-[#262626]'>
                         <article className='text-center'>
                             <h1 className='lg:text-[32px] font-[800]'>+ 7000</h1>
                             <span>Students Passed Out</span>
@@ -148,7 +148,7 @@ const Home = () => {
                     <div className='flex justify-center lg:mt-[75px] mt-[50px] gap-[90px] flex-wrap'>
                         {data.map((e, i) => {
                             return (
-                                <article key={i} style={{ boxShadow: '6px 6px 0px 2px #1E1E1E' }} className='flex relative rounded-[12px] pt-[80px] pb-[50px] px-[50px] flex-col gap-[10px] bg-white lg:w-[404px] items-start'>
+                                <article key={i} style={{ boxShadow: '6px 6px 0px 2px #1E1E1E' }} className='flex relative border-[2px] border-[#262626] rounded-[12px] pt-[80px] pb-[50px] px-[50px] flex-col gap-[10px] bg-white lg:w-[404px] items-start'>
                                     <img className='absolute top-[-40px] left-[30px]' src={e.img} alt="" />
                                     <h1 className='lg:text-[28px] font-[700]'>{e.name}</h1>
                                     <p className='lg:text-[20px]'>{e.bio}</p>
@@ -168,7 +168,7 @@ const Home = () => {
                     <img className='hidden lg:block' src={left} alt="" />
                     {data2.map((e, i) => {
                         return (
-                            <article style={{ boxShadow: '6px 6px 0px 2px #1E1E1E' }} className='lg:w-[325px] h-[462px] rounded-[12px] p-[50px] bg-white flex flex-col gap-[30px] items-center text-center' key={i}>
+                            <article style={{ boxShadow: '6px 6px 0px 2px #1E1E1E' }} className='lg:w-[325px] h-[462px] border-[2px] border-[#262626] rounded-[12px] p-[50px] bg-white flex flex-col gap-[30px] items-center text-center' key={i}>
                                 <img src={e.img} alt="" />
                                 <b>{e.name}</b>
                                 <img src={stars} alt="" />
@@ -205,7 +205,7 @@ const Home = () => {
                 <div className='flex flex-wrap justify-center gap-[50px] mt-[50px]'>
                     {data4.map((e, i) => {
                         return (
-                            <article key={i} style={{ boxShadow: '6px 6px 0px 2px #1E1E1E' }} className='bg-white justify-between p-[20px] rounded-[12px] lg:p-[80px] text-center lg:w-[600px] flex flex-col gap-[40px] lg:gap-[80px]'>
+                            <article key={i} style={{ boxShadow: '6px 6px 0px 2px #1E1E1E' }} className='bg-white border-[2px] border-[#262626] justify-between p-[20px] rounded-[12px] lg:p-[80px] text-center lg:w-[600px] flex flex-col gap-[40px] lg:gap-[80px]'>
                                 <div className='flex flex-col gap-[30px]'>
                                     <h1 className='lg:text-[48px] font-[700]'>{e.name}</h1>
                                     <img src={tire} alt="" />
