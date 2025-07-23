@@ -71,7 +71,7 @@ const Admission = () => {
                 </div>
             </section>
             <section>
-                <div className='text-center flex flex-col gap-[20px] items-center mt-[75px]'>
+                <div className='text-center flex flex-col gap-[20px] items-center mt-[76px]'>
                     <button className='bg-white border-[2px] py-[10px] px-[20px] font-[500] border-black rounded-[8px]'>Our Features</button>
                     <h1 className='font-[700] lg:text-[58px]'>Fee Structure</h1>
                     <p className='font-[500] lg:text-[20px] lg:w-[992px]'>Our fee structure is transparent, and we strive to keep our fees competitive within the education sector. The fees vary based on the program, age group, and any additional services chosen.</p>
